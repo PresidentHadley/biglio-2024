@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "biglio",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authbiglio9fa0f4a3",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

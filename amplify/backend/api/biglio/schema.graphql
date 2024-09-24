@@ -1,0 +1,19 @@
+type User @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  username: String!
+  email: String!
+  profilePicture: String
+  bio: String
+  audioFiles: [AudioFile] @hasMany(indexName: "byUser", fields: ["id"])
+}
+
+type AudioFile @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  title: String!
+  category: String
+  tags: [String]
+  summary: String
+  userId: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userId"])
+  createdAt: AWSDateTime!
+}

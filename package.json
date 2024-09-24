@@ -1,0 +1,16 @@
+{
+  "name": "biglio-2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.656.0",
+    "aws-amplify": "^6.6.2"
+  }
+}

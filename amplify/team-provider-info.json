@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-biglio-dev-3e6e2-authRole",
+      "UnauthRoleArn": "arn:aws:iam::418295715728:role/amplify-biglio-dev-3e6e2-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::418295715728:role/amplify-biglio-dev-3e6e2-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-biglio-dev-3e6e2-deployment",
+      "UnauthRoleName": "amplify-biglio-dev-3e6e2-unauthRole",
+      "StackName": "amplify-biglio-dev-3e6e2",
+      "StackId": "arn:aws:cloudformation:us-east-1:418295715728:stack/amplify-biglio-dev-3e6e2/b6f11810-7a0a-11ef-a78c-0ee756e81a1d",
+      "AmplifyAppId": "d2c3xx77wyyziv"
+    },
+    "categories": {
+      "auth": {
+        "biglio9fa0f4a3": {}
+      },
+      "api": {
+        "biglio": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2c3xx77wyyziv",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
